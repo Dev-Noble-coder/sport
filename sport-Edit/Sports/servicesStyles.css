@@ -1,0 +1,51 @@
+main {
+  margin-top: 60px;
+}
+
+.services {
+  margin-top: 60px;
+}
+
+.our-services {
+  text-align: center;
+}
+
+.service {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 25px;
+  margin: 60px auto;
+  align-items: center;
+}
+
+.service-intro {
+  max-width: 500px;
+}
+
+.service-image {
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.service-book {
+  border: none;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.service-book:hover {
+  background-color: rgb(218, 19, 19);
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    flex-direction: column-reverse;
+  }
+}

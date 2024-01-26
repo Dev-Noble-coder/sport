@@ -1,0 +1,47 @@
+main {
+  background-color: beige;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  width: 90%;
+  padding: 60px 0px;
+  max-width: 1296px;
+  margin: 0px auto;
+}
+
+.coach-info {
+  max-width: 350px;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.coach-name {
+  font-size: 20px;
+}
+
+.tips {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.coach-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+.small-redX {
+  color: red;
+}
+
+.coach-name-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
